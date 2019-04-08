@@ -24,6 +24,7 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	height: 70vh;
 }
 
 
@@ -35,8 +36,9 @@ h1 {
 .image-container {
 	position: relative; /* parent of transition-img */
 	background-color: #1A2980;
-	height: 500px;
+	height: 400px;
 	width: 800px;
+	width: 40%;
 	overflow: hidden; /*after element will also be hidden outside container*/
 	border-radius: 2px;
 	box-shadow: 0 2px 30px #18ffff;
@@ -96,12 +98,16 @@ h1 {
 		height: 80vh;
 	}
 	.image-container {
-		width: 80%;
-		height: 200px;
+		width: 85%;
+		height: 210px;
 		box-shadow: 0 2px 20px #18ffff;
 	}
 
 	h1, .fade::after {
 		font-size: 18px;
+	}
+	h1 {
+		width: 90%;
+    	margin: 0 auto;
 	}
 }
